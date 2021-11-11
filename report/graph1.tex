@@ -2,6 +2,7 @@
 \subsection{tempOnDay()}
 The first of the proposed graphs was a histogram that will show all the temperatures recorded over the years for a single day. The member function of tempTrender that deoes this was called "tempOnDay()".\par
 There are two variants proposed for the tempOnDay member function in the instructions file: one that takes two int values as input (month and day) and one that takes a number between 0 and 365, corresponding to a specific day of the year. We implemented both.\par
+Data parsing was done by skipping the headers of the files and then reading all of the rest of the lines. If the date of a line corresponded with the desired date, the value for that date was included into the histogram. No data pre-processing was done. 
 
 \begin{figure}[h]
 \centering
